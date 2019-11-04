@@ -1,0 +1,95 @@
+.server{
+	background-color:#fff ;
+
+}
+.server .ma{
+	margin: 60px 0 30px;
+}
+.server .ma::after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.server .ma>ul>li{
+	float: left;
+	box-sizing: border-box;
+	height: 260px;
+	width: 399px;
+	font-size: 16px;
+	border-right: 1px solid #ccc;
+}
+.server .ma>ul>li:last-child{
+	border-right: 0px;
+}
+.server .ma>ul .title{
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.server .ma>ul li{
+
+	text-align: center;
+}
+.server .ma>ul>li a{
+	display: inline-block;
+	width: 80px;
+	height: 100px;
+	padding-top: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.server .ma>ul>li a.online{
+	margin-right: 29px;
+}
+i.icon-kefu,i.icon-xiaoxi{
+	display: inline-block;
+	width: 80px;
+	height: 36px;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #666;
+}
+.server .ma>ul>li.why{
+	padding:0 39px;
+	text-align: left;
+
+}
+.server .ma>ul>li p{
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.server .ma>ul>li span{
+	margin-right: 15px;
+}
+i.icon-yixin{
+	color: #0fab83;
+}
+i.icon-weixin{
+	color: #4bb341;
+}
+i.icon-weibo{
+	color: #e42f36;
+}
+i.icon-yixin,i.icon-weixin,i.icon-weibo{
+	margin-right: 10px;
+	font-size: 35px;
+}
+.server .ma>ul>li.sao{
+	text-align: center;
+}
+.server .ma>ul>li.sao img{
+	width: 104px;
+	height: 104px;
+}
+.server .ma>ul>li.sao .xiazai{
+	font-size: 10px;
+	margin-top: 5px;
+	color: #b4a078
+}
+i.icon-trumpet{
+	font-size: 18px;
+	float: left;
+	line-height: 25px;
+	color: #b4a078;
+}
